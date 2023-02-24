@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="plante.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,700;0,800;1,900&display=swap" rel="stylesheet">
+    <title>Plante</title>
+</head>
+<body>
+    <div class="p1"></div>
+    <div class="p2"></div>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <svg width="71" height="71" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="71" height="71" fill="url(#pattern0)"/>
+                    <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_103_5" transform="scale(0.01)"/>
+                    </pattern>
+                    <image id="image0_103_5" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                    </svg>
+            <div>plante</div>        
+            
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">Collection</a></li>
+                    <li> <a href="#">Shop</a></li>
+                    <li> <a href="#">About</a></li>
+                    <li> <a href="#">Contact</a></li>
+                </ul>
+                <div class="icons">
+                    <ul>
+                        <li><a href="#" class="cart"><img src="images/cart.svg" alt=""></a></li>
+                        <li><a href="#" class="profile"><img src="images/profile.svg" alt=""></a></li>
+                        <li><a href="#" class="search"><img src="images/Search.svg" alt=""></a></li>
+                    </ul>
+                                
+                </div>
+            </nav>
+
+        </header>
+        <div class="hero">
+            <div class="main"><h2>Happiness</h2>
+                <h3>is turning your space into a</h3>
+                <h1>Garden</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="b1"><a href="#">Discover more!</a></p>
+        </div>
+    </div>
+</body>
+</html>
